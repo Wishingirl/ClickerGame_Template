@@ -11,10 +11,7 @@ nh.startServer({
     
     scripts: './user_scripts', // Your .js files location
     
-    sandbox: {
-        flatfile: require("flat-file-db")
-        
-    }, // Your npm modules you want to add to the VM 
+    modules=['flatfile'] // Your npm modules you want to add to the VM 
     
     // For more help: https://meta_data.gitlab.io/node-hill/interfaces/gamesettings.html
 })
