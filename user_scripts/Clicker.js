@@ -1,3 +1,4 @@
+const flatfile = getModule('flatfile');
 var db = flatfile('/db/Score.db');
 
 
