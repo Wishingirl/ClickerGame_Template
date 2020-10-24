@@ -1,3 +1,4 @@
+const flatfile = getModule('flatfile')
 var db = flatfile('/db/Score.db');
 let readydb = 0
 db.on('open', function() {
